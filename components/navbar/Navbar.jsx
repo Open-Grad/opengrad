@@ -1,5 +1,8 @@
 import React from "react";
 import useState from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
@@ -15,13 +18,13 @@ const Navbar = () => {
           <nav className="relative flex items-center justify-between lg:justify-end h-16 lg:h-20">
             <div className="lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
               <div className="flex-shrink-0">
-                <a href="/" title="" className="flex">
-                  <img
+                <Link href="/" title="" className="flex">
+                  <Image
                     className="w-auto h-8 lg:h-12"
                     src="/images/logo.png"
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -42,19 +45,19 @@ const Navbar = () => {
             </button>
 
             <div className="hidden lg:flex lg:items-center lg:space-x-10">
-              <a href="/" title="" className="text-base font-medium text-black">
+              <Link href="/" title="" className="text-base font-medium text-black">
                 {" "}
                 Home{" "}
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="/"
                 title=""
                 className="text-base font-medium text-black"
               >
                 {" "}
                 Sign up{" "}
-              </a>
+              </Link>
 
               
             </div>
