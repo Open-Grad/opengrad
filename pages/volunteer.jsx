@@ -9,8 +9,10 @@ const volunteer = () => {
       <Navbar />
       <Volunteer />
 
-      <div className="flex flex-col gap-4 items-center justify-center mx-auto py-2
-        ">
+      <div
+        className="flex flex-col gap-4 items-center justify-center mx-auto py-2
+        "
+      >
         <h1 className="text-3xl underline text-left p-5 ">FAQs</h1>
         <Accordion
           title="What are the expectations out of a volunteer?"
@@ -25,9 +27,12 @@ const volunteer = () => {
           title="What are the benefits of volunteering?"
           content="You will be a part of the OpenGrad family. You will be able to interact with the students and other volunteers. You will be able to learn and develop your skills. You will be able to contribute to the society. You will be able to be a part of the OpenGrad journey. "
         />
-        <p className="text-xl text-slate-800 ">Signup As A Mentor and Be a Part of the Revolution</p>
-        <button className="outline outline-violet-500 text-violet-500 hover:bg-green-900 py-4 px-4 font-bold rounded text-white  text-left mx-auto items-center justify-center transition">
-          Join as a Volunteer</button>
+        <p className="text-xl text-slate-800 ">
+          Signup As A Mentor and Be a Part of the Revolution
+        </p>
+        <button className="outline outline-violet-500 text-violet-500 hover:bg-green-900 py-4 px-4 font-bold rounded  text-left mx-auto items-center justify-center transition">
+          Join as a Volunteer
+        </button>
       </div>
     </>
   );
