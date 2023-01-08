@@ -9,7 +9,7 @@ const Volunteer = () => {
           <h1 class="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-tight text-green-600">
             Volunteer with OpenGrad
           </h1>
-          <p class="mt-3 text-lg leading-relaxed text-slate-400">
+          <p class="mt-3 text-lg font-body leading-relaxed text-slate-400">
             OpenGrad is one of its kind non Profit edTech platform which aims at
             providing coaching and mentoring for leading competitive exams
             across the country. The platform is completely volunteer driven. Yes
