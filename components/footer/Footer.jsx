@@ -36,7 +36,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                        <Link href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Volunteer </Link>
+                        <Link href="/volunteer" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Volunteer </Link>
                     </li>
 
                     <li>
