@@ -1,11 +1,27 @@
 import React from "react";
-import Footer from "../navbar/Footer";
+import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
+import Landingpagebanner from "./Landingpagebanner";
+import Videosection from "./Videosection";
+import Mentors from "./Mentors";
+import News from "./News";
+import Offer from "./Offer";
+import Collabe from "./Collabe";
+import Blog from "./Blog";
 
 const HomePage = () => {
   return (
     <>
       <Navbar />
+      <Landingpagebanner />
+      <Videosection />
+      <Mentors />
+      <News />
+      <Offer />
+      <Collabe />
+      <Blog />
+      <Footer />
+
       
     </>
   );
