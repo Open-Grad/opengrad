@@ -32,7 +32,6 @@ const [dopen, setDopen] = React.useState(false);
                     className="w-auto h-8 lg:h-12"
                     src="/images/logo.png"
                     alt=""
-                  
                   />
                 </Link>
               </div>
@@ -62,6 +61,14 @@ const [dopen, setDopen] = React.useState(false);
               >
                 
                 Home
+              </Link>
+              <Link
+                href="/about"
+                title=""
+                className="text-base font-medium text-black"
+              >
+                {" "}
+                About Us{" "}
               </Link>
 
               <Link
