@@ -1,5 +1,7 @@
 import React from "react";
-import About from "../components/About/Aboutpage";
+import About from "../components/About/About";
+import { Carousel1 } from "../components/Carousels/Carousel1";
+import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 
 const Aboutpage = () => {
@@ -7,6 +9,8 @@ const Aboutpage = () => {
     <div>
       <Navbar />
       <About />
+      <Carousel1/>
+      <Footer />
     </div>
   );
 };
