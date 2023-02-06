@@ -12,7 +12,7 @@ import Blog from "./Blog";
 const HomePage = () => {
   return (
     <>
-      <Navbar />
+     
       <Landingpagebanner />
       <Videosection />
       <Mentors />

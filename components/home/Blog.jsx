@@ -2,120 +2,177 @@ import React from 'react'
 
 export default function Blog() {
   return (
-   <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
-    <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    <section className="py-10 px-0 sm:px-24 bg-gray-50 sm:py-16 lg:py-24">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-end justify-between">
-            <div className="flex-1 text-center lg:text-left">
-                <h2 className="text-3xl font-bold leading-tight font-display text-black sm:text-4xl lg:text-5xl">Blogs & Articles</h2>
-            </div>
+          <div className="flex-1 text-center lg:text-left">
+            <h2 className="text-3xl font-bold leading-tight font-display text-black sm:text-4xl lg:text-5xl">
+              Blogs & Articles
+            </h2>
+          </div>
 
-            <div className="hidden lg:flex lg:items-center lg:space-x-3">
-                <button type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                    </svg>
-                </button>
-
-                <button type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                </button>
-            </div>
+      
         </div>
 
         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
-            <div className="overflow-hidden bg-white rounded shadow">
-                <div className="p-5">
-                    <div className="relative">
-                        <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
-                        </a>
-
-                        <div className="absolute top-4 left-4">
-                            <span className="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"> Exam </span>
-                        </div>
-                    </div>
-                    <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2023 </span>
-                    <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> What are the important topics for IIT JEE in 11th Standard? </a>
+          <div class="relative snap-start scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
+            <div class="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border border-gray-100 shadow w-60 md:w-80 group rounded-xl hover:shadow-lg hover:-translate-y-1">
+              <a href="#" title="" class="flex shrink-0 aspect-w-4 aspect-h-3">
+                <img
+                  class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
+                  src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png"
+                  alt="thumbnail-1"
+                />
+              </a>
+              <div class="flex-1 px-4 py-5 sm:p-6">
+                <a href="#" title="" class="">
+                  <p class="text-lg font-bold text-gray-900">
+                    How to write content about your photographs
+                  </p>
+                  <p class="mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3">
+                    Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
+                    Sit quis auctor odio arcu et dolor.
+                  </p>
+                </a>
+              </div>
+              <div class="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-2">
+                    <p class="text-sm font-medium text-gray-900">
+                      <a href="#" title="" class="">
+                        Growth
+                      </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nam explicabo, at sapiente voluptatem nobis </p>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                    <span class="text-sm font-medium text-gray-900">•</span>
+                    <p class="text-sm font-medium text-gray-900">7 Mins Read</p>
+                  </div>
+                  <a href="#" title="" class="" role="button">
+                    <svg
+                      class="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewbox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <line x1="17" y1="7" x2="7" y2="17"></line>
+                      <polyline points="8 7 17 7 17 16"></polyline>
+                    </svg>
+                  </a>
                 </div>
+              </div>
             </div>
+          </div>
 
-            <div className="overflow-hidden bg-white rounded shadow">
-                <div className="p-5">
-                    <div className="relative">
-                        <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-2.jpg" alt="" />
-                        </a>
-
-                        <div className="absolute top-4 left-4">
-                            <span className="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"> Jee </span>
-                        </div>
-                    </div>
-                    <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> April 04, 2023 </span>
-                    <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> What are the important topics for IIT JEE in 11th Standard?</a>
+          <div class="relative snap-start scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
+            <div class="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border border-gray-100 shadow w-60 md:w-80 group rounded-xl hover:shadow-lg hover:-translate-y-1">
+              <a href="#" title="" class="flex shrink-0 aspect-w-4 aspect-h-3">
+                <img
+                  class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
+                  src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png"
+                  alt="thumbnail-1"
+                />
+              </a>
+              <div class="flex-1 px-4 py-5 sm:p-6">
+                <a href="#" title="" class="">
+                  <p class="text-lg font-bold text-gray-900">
+                    How to write content about your photographs
+                  </p>
+                  <p class="mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3">
+                    Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
+                    Sit quis auctor odio arcu et dolor.
+                  </p>
+                </a>
+              </div>
+              <div class="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-2">
+                    <p class="text-sm font-medium text-gray-900">
+                      <a href="#" title="" class="">
+                        Growth
+                      </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nam explicabo, at sapiente voluptatem nobis </p>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                    <span class="text-sm font-medium text-gray-900">•</span>
+                    <p class="text-sm font-medium text-gray-900">7 Mins Read</p>
+                  </div>
+                  <a href="#" title="" class="" role="button">
+                    <svg
+                      class="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewbox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <line x1="17" y1="7" x2="7" y2="17"></line>
+                      <polyline points="8 7 17 7 17 16"></polyline>
+                    </svg>
+                  </a>
                 </div>
+              </div>
             </div>
-
-            <div className="overflow-hidden bg-white rounded shadow">
-                <div className="p-5">
-                    <div className="relative">
-                        <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-3.jpg" alt="" />
-                        </a>
-
-                        <div className="absolute top-4 left-4">
-                            <span className="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"> CAT </span>
-                        </div>
-                    </div>
-                    <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> May 12, 2023 </span>
-                    <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> What are the important topics for IIT JEE in 11th Standard? </a>
+          </div>
+          <div class="relative snap-start scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
+            <div class="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border border-gray-100 shadow w-60 md:w-80 group rounded-xl hover:shadow-lg hover:-translate-y-1">
+              <a href="#" title="" class="flex shrink-0 aspect-w-4 aspect-h-3">
+                <img
+                  class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
+                  src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png"
+                  alt="thumbnail-1"
+                />
+              </a>
+              <div class="flex-1 px-4 py-5 sm:p-6">
+                <a href="#" title="" class="">
+                  <p class="text-lg font-bold text-gray-900">
+                    How to write content about your photographs
+                  </p>
+                  <p class="mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3">
+                    Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
+                    Sit quis auctor odio arcu et dolor.
+                  </p>
+                </a>
+              </div>
+              <div class="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-2">
+                    <p class="text-sm font-medium text-gray-900">
+                      <a href="#" title="" class="">
+                        Growth
+                      </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nam explicabo, at sapiente voluptatem nobis </p>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                    <span class="text-sm font-medium text-gray-900">•</span>
+                    <p class="text-sm font-medium text-gray-900">7 Mins Read</p>
+                  </div>
+                  <a href="#" title="" class="" role="button">
+                    <svg
+                      class="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewbox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <line x1="17" y1="7" x2="7" y2="17"></line>
+                      <polyline points="8 7 17 7 17 16"></polyline>
+                    </svg>
+                  </a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
 
-        <div className="flex items-center justify-center mt-8 space-x-3 lg:hidden">
-            <button type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                </svg>
-            </button>
-
-            <button type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                </svg>
-            </button>
-        </div>
-    </div>
-</section>
-
-  )
+       
+      </div>
+    </section>
+  );
 }
