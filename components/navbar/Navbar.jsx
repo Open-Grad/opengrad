@@ -21,9 +21,9 @@ const [dopen, setDopen] = React.useState(false);
 
 
   return (
-    <header>
-      <div className=" bg-gray-100 border-b border-gray-200">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8">
+    <>
+      <div className=" bg-gray-100 border-b border-gray-200 w-100  ">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 ">
           <nav className="relative flex items-center justify-between lg:justify-end h-16 lg:h-20">
             <div className="lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
               <div className="flex-shrink-0">
@@ -241,7 +241,7 @@ const [dopen, setDopen] = React.useState(false);
           </div>
         </nav>
       )}
-    </header>
+    </>
   );
 };
 
