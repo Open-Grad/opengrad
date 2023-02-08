@@ -8,7 +8,7 @@ export default function landingpagebanner() {
     return (
       <div className="w-full min-h-screen font-sans from-[#e6fef7] to-white text-gray-900">
         <Navbar />
-        <div className="h-screen bg-gradient-to-b from-[#e6fef7] to-white">
+        <div className="h-screen bg-gradient-to-b from-[#e6fef7] to-white px-24 ">
           {/* <img
             src="/images/blob.svg"
             alt="h"
@@ -50,7 +50,7 @@ export default function landingpagebanner() {
                   sense in these unprecedented times.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center  items-center pt-6 sm:pt-12 space-x-6 md:justify-start">
-                  <button className="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-blue-600 rounded-xl hover:shadow-xl">
+                  <button className="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-[#005249]	 rounded-xl hover:shadow-xl">
                    Join Now
                   </button>
                   <button className="flex items-center">
