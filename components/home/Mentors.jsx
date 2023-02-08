@@ -22,14 +22,14 @@ export default function mentors() {
             <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
               <div className="flex-1">
                 <blockquote className="flex-1 mt-8">
-                  <p className="text-sm leading-relaxed text-gray-900 font-pj">
-                    " I am thrilled to come across this new edtech concept, 
+                  <p className="text-2sm leading-relaxed text-gray-900 font-pj">
+                  &quot; I am thrilled to come across this new edtech concept, 
                     Opengrad bringing together the aspirants, converts and the alumni.
                      This will give the aspirants  a never before experience. 
                      This is one of a kind platform that offers top quality content curated by the 
                      converts and students from premier universities. 
                      With Opengrad the competitive exams are no longer a monopoly of students with
-                      access to expensive coaching materials, because here the best is offered for free! "
+                      access to expensive coaching materials, because here the best is offered for free! &quot;
 
                   </p>
                 </blockquote>
@@ -46,7 +46,7 @@ export default function mentors() {
                   Reshi Kiran 
                   </p>
                   <p className="mt-0.5 text-sm font-pj text-gray-600">
-                  - IIT Roorkee ‘18               
+                  IIT Roorkee ‘18               
                  </p>
                 </div>
               </div>
