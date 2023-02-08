@@ -8,11 +8,12 @@ import News from "./News";
 import Offer from "./Offer";
 import Collabe from "./Collabe";
 import Blog from "./Blog";
+import Mentors1 from "./Mentors1";
 
 const HomePage = () => {
   return (
     <>
-      <Navbar />
+     
       <Landingpagebanner />
       <Videosection />
       <Mentors />

@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Dropdown } from "flowbite-react";
 
-
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
 
@@ -12,16 +11,15 @@ const Navbar = () => {
     setOpen(!open);
   };
 
-const [dopen, setDopen] = React.useState(false);
+  const [dopen, setDopen] = React.useState(false);
 
   const dopening = () => {
     setDopen(!dopen);
   };
 
-
   return (
-    <header className=" bg-gradient-to-b from-[#e6fef7] to-[#e6fef7]">
-      <div className="px-0 sm:px-24 pt-3 mx-auto max-w-8xl">
+    <header className=" bg-white">
+      <div className="px-24 py-1 mx-auto max-w-8xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-between lg:justify-end h-16 lg:h-20">
             <div className="lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
@@ -160,7 +158,7 @@ const [dopen, setDopen] = React.useState(false);
                 <Link
                   href="/"
                   title=""
-                  className="text-base font-body bg-[#e6fef7] border-current border-2 px-4 py-2 font-medium text-black rounded-md"
+                  className="text-base font-body border-current border-2 px-4 py-2 font-medium text-black rounded-md"
                 >
                   Login
                 </Link>

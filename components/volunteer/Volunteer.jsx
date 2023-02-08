@@ -5,7 +5,7 @@ export default function Volunteer() {
 
 
   return (
-    <div class="relative bg-gradient-to-b from-green-50 to-green-100">
+    <div class="relative px-24 bg-gradient-to-b from-green-50 to-green-100">
   
 
     <section class="overflow-hidden">
