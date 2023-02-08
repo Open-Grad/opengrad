@@ -93,24 +93,24 @@ export default function mentors() {
             <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
               <div className="flex-1">
                 <blockquote className="flex-1 mt-8">
-                  <p className="text-lg leading-relaxed text-gray-900 font-pj">
+                  <p className="text-2sm leading-relaxed text-gray-900 font-pj">
                     “While the majority of the organized coaching institutes were focused on Engineering and Medical entrances,  I found it difficult to connect and  understand the opportunities and preparation strategies when it comes to Law entrance examinations. The concept of Opengrad is promising. This will help a lot of people like me who was struggling for the right direction, mentorship and preparation materials during my entrance days”
                   </p>
                 </blockquote>
               </div>
 
-              <div className="flex items-center mt-8">
+              <div className="flex items-center bg-slate-500  mt-8">
                 <img
                   className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                  src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png"
-                  alt=""
+                  src="/images/avatars/female.png"
+                  alt="Kavya"
                 />
                 <div className="ml-4">
                   <p className="text-base font-bold text-gray-900 font-pj">
-                    Jacob Jones
+                  Kavya 
                   </p>
                   <p className="mt-0.5 text-sm font-pj text-gray-600">
-                    Digital Marketer
+                    NUALS
                   </p>
                 </div>
               </div>
