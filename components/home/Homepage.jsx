@@ -16,7 +16,6 @@ const HomePage = () => {
      
       <Landingpagebanner />
       <Videosection />
-      <Mentors1 />
       <Mentors />
       <News />
       <Offer />
