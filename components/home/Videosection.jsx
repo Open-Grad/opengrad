@@ -21,7 +21,7 @@ export default function Videosection() {
 
               <ul className="grid grid-cols-1 mt-4 sm:mt-10 sm:grid-cols-2 gap-x-10 xl:gap-x-16 gap-y-4 xl:gap-y-6">
                 <li className="flex items-center">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO3WPyhFURzA8ZtEQimTBYuyMBntL9kVycBGwkQWm5SSTHYZbcquZHyTMqFEiVEWfz66etPtvPfIPXfgfcdzhk+dfv06SdKoRhjAJJawilmMoT3JO3RjA1eq94ID9OQJl32/JwznBV/7WTdoiwG/477yvNWazwv+wBFKaKmct1aGLNRxHvAORmvcnwfgi1/D9cJJAD5NYoYOPAbgvdjwfgB9SxdNLLAJu1UGayUW2ozDAJhO/noUNA1bAfQZE0ms0IvXDJoO10g0NA2LgectJbHDdga+jI6mYS0DnyVFhPEMfFsI/D9DJ6axgMGi0D7cZT4FU0XAm4GtVf7TcD8eMptrJjqchi7MYRlDX4eNkvp9AlH0tOtwKJdjAAAAAElFTkSuQmCC" />
+                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     Lack of motivation?{" "}
@@ -29,7 +29,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO3WPyhFURzA8ZtEQimTBYuyMBntL9kVycBGwkQWm5SSTHYZbcquZHyTMqFEiVEWfz66etPtvPfIPXfgfcdzhk+dfv06SdKoRhjAJJawilmMoT3JO3RjA1eq94ID9OQJl32/JwznBV/7WTdoiwG/477yvNWazwv+wBFKaKmct1aGLNRxHvAORmvcnwfgi1/D9cJJAD5NYoYOPAbgvdjwfgB9SxdNLLAJu1UGayUW2ozDAJhO/noUNA1bAfQZE0ms0IvXDJoO10g0NA2LgectJbHDdga+jI6mYS0DnyVFhPEMfFsI/D9DJ6axgMGi0D7cZT4FU0XAm4GtVf7TcD8eMptrJjqchi7MYRlDX4eNkvp9AlH0tOtwKJdjAAAAAElFTkSuQmCC" />
+                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     Lack of direction?{" "}
@@ -37,7 +37,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO3WPyhFURzA8ZtEQimTBYuyMBntL9kVycBGwkQWm5SSTHYZbcquZHyTMqFEiVEWfz66etPtvPfIPXfgfcdzhk+dfv06SdKoRhjAJJawilmMoT3JO3RjA1eq94ID9OQJl32/JwznBV/7WTdoiwG/477yvNWazwv+wBFKaKmct1aGLNRxHvAORmvcnwfgi1/D9cJJAD5NYoYOPAbgvdjwfgB9SxdNLLAJu1UGayUW2ozDAJhO/noUNA1bAfQZE0ms0IvXDJoO10g0NA2LgectJbHDdga+jI6mYS0DnyVFhPEMfFsI/D9DJ6axgMGi0D7cZT4FU0XAm4GtVf7TcD8eMptrJjqchi7MYRlDX4eNkvp9AlH0tOtwKJdjAAAAAElFTkSuQmCC" />
+                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     Lack of learning materials & mentorship?{" "}
@@ -45,7 +45,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO3WPyhFURzA8ZtEQimTBYuyMBntL9kVycBGwkQWm5SSTHYZbcquZHyTMqFEiVEWfz66etPtvPfIPXfgfcdzhk+dfv06SdKoRhjAJJawilmMoT3JO3RjA1eq94ID9OQJl32/JwznBV/7WTdoiwG/477yvNWazwv+wBFKaKmct1aGLNRxHvAORmvcnwfgi1/D9cJJAD5NYoYOPAbgvdjwfgB9SxdNLLAJu1UGayUW2ozDAJhO/noUNA1bAfQZE0ms0IvXDJoO10g0NA2LgectJbHDdga+jI6mYS0DnyVFhPEMfFsI/D9DJ6axgMGi0D7cZT4FU0XAm4GtVf7TcD8eMptrJjqchi7MYRlDX4eNkvp9AlH0tOtwKJdjAAAAAElFTkSuQmCC" />
+                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     Lack of access to expensive coaching?{" "}
@@ -53,7 +53,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO3WPyhFURzA8ZtEQimTBYuyMBntL9kVycBGwkQWm5SSTHYZbcquZHyTMqFEiVEWfz66etPtvPfIPXfgfcdzhk+dfv06SdKoRhjAJJawilmMoT3JO3RjA1eq94ID9OQJl32/JwznBV/7WTdoiwG/477yvNWazwv+wBFKaKmct1aGLNRxHvAORmvcnwfgi1/D9cJJAD5NYoYOPAbgvdjwfgB9SxdNLLAJu1UGayUW2ozDAJhO/noUNA1bAfQZE0ms0IvXDJoO10g0NA2LgectJbHDdga+jI6mYS0DnyVFhPEMfFsI/D9DJ6axgMGi0D7cZT4FU0XAm4GtVf7TcD8eMptrJjqchi7MYRlDX4eNkvp9AlH0tOtwKJdjAAAAAElFTkSuQmCC" />
+                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     If yes, we are here with all you need!{" "}
@@ -61,7 +61,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO3WPyhFURzA8ZtEQimTBYuyMBntL9kVycBGwkQWm5SSTHYZbcquZHyTMqFEiVEWfz66etPtvPfIPXfgfcdzhk+dfv06SdKoRhjAJJawilmMoT3JO3RjA1eq94ID9OQJl32/JwznBV/7WTdoiwG/477yvNWazwv+wBFKaKmct1aGLNRxHvAORmvcnwfgi1/D9cJJAD5NYoYOPAbgvdjwfgB9SxdNLLAJu1UGayUW2ozDAJhO/noUNA1bAfQZE0ms0IvXDJoO10g0NA2LgectJbHDdga+jI6mYS0DnyVFhPEMfFsI/D9DJ6axgMGi0D7cZT4FU0XAm4GtVf7TcD8eMptrJjqchi7MYRlDX4eNkvp9AlH0tOtwKJdjAAAAAElFTkSuQmCC" />
+                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     Get Free Support{" "}
