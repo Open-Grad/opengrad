@@ -4,7 +4,7 @@ import React from 'react'
 
 function NewsCard(){
     return(
-        <div class="md:2/3 relative aspect-[3/3] w-[80%]  snap-start snap-always rounded-xl outline-dashed" >
+        <div class="md:2/3 relative aspect-[3/3] w-[80%]   snap-start snap-always rounded-xl outline-dashed" >
             <div className="flex flex-col overflow-hidden bg-white shadow-md rounded-xl">
                 <div className="flex flex-col justify-start flex-1 px-5 py-6">
 
@@ -41,18 +41,19 @@ export default function News() {
   return (
     <section className="py-10  bg-gradient-to-br  from-teal-500 to-darkgreen sm:py-16 lg:py-24">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-2xl mx-auto text-center p-0">
             <h2 className="text-3xl font-bold leading-tight font-display text-white sm:text-4xl lg:text-5xl">News and Notifications</h2>
         </div>
 
         {/* <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full lg:gap-14"> */}
 
-        <div class="scrollbar-hide mt-14 flex w-full snap-x snap-mandatory scroll-px-10 gap-10 overflow-x-scroll scroll-smooth px-10  ">
+        <div class="scrollbar-hide mt-14 flex  snap-x snap-mandatory scroll-px-10 gap-10 overflow-x-scroll scroll-smooth px-10  ">
 
 
         <NewsCard></NewsCard>
         <NewsCard></NewsCard>
         <NewsCard></NewsCard>
+        
 
 
 
