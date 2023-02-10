@@ -13,19 +13,18 @@ import Mentors1 from "./Mentors1";
 const HomePage = () => {
   return (
     <>
-     
       <Landingpagebanner />
+
       <Videosection />
       <Mentors />
-      <News />
       <Offer />
-      <Collabe />
+      <News />
+
+      {/* <Collabe /> */}
       <Blog />
       <Footer />
-
-      
     </>
   );
 };
 
-export default HomePage
+export default HomePage;

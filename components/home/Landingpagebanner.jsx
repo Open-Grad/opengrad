@@ -8,7 +8,7 @@ export default function landingpagebanner() {
     return (
       <div className="w-full min-h-screen font-sans from-[#e6fef7] to-white text-gray-900">
         <Navbar />
-        <div className="h-screen bg-gradient-to-b from-[#e6fef7] to-white px-24 ">
+        <div className="h-screen bg-gradient-to-b from-[#e6fef7] to-white px-0 sm:px-24 ">
           {/* <img
             src="/images/blob.svg"
             alt="h"
@@ -38,25 +38,25 @@ export default function landingpagebanner() {
           </div> */}
           <div className="px-0 py-8 mx-auto max-w-7xl">
             <div className="flex flex-col-reverse gap-8 items-center justify-center md:flex-row lg:items-center">
-              <div className="pt-4 px-5 pr-0 sm:pr-8 pb-24 text-center md:pb-12 md:w-2/3 md:text-left">
-                <h1 className="relative z-10 text-2xl sm:text-5xl font-bold md:text-6xl font-display">
+              <div className="pt-0 sm:pt-4 px-5 pr-0 sm:pr-8 pb-24 text-center md:pb-12 md:w-2/3 md:text-left">
+                <h1 className="relative z-10 text-2xl sm:text-5xl font-bold md:text-6xl px-5 sm:px-0 font-display">
                   Take your first step towards getting into your
                   {/* <span className="relative sm:block hidden after:content-[url(/images/decoration.svg)] after:absolute after:-bottom-2 after:-right-8 after:-z-1">
                     dream institution
                   </span> */}
                 </h1>
-                <p className="pt-8 text-sm sm:text-lg leading-relaxed text-gray-500 md:max-w-md md:text-xl">
+                <p className="pt-4 sm:pt-8 px-5 sm:px-0 text-sm sm:text-lg leading-relaxed text-gray-500 md:max-w-md md:text-xl">
                   Working at home is definitely a convenient option and makes
                   sense in these unprecedented times.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-5 justify-center  items-center pt-6 sm:pt-12 space-x-6 md:justify-start">
-                  <button className="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-[#005249]	 rounded-xl hover:shadow-xl">
+                <div className="flex flex-row sm:flex-row gap-2 justify-center  items-center pt-6 sm:pt-12 space-x-6 md:justify-start">
+                  <button className="flex text-sm sm:text-xs justify-center items-center py-3 px-4 sm:py-3 sm:px-8 font-bold tracking-wide leading-7 text-white bg-[#005249]	 rounded-xl hover:shadow-xl">
                    Join Now
                   </button>
                   <button className="flex items-center">
                     <img
                       src="/images/play-button.svg"
-                      className="drop-shadow-lg hover:drop-shadow-xl"
+                      className="drop-shadow-lg h-16 hover:drop-shadow-xl"
                     />
                     <span className="pl-4 font-bold tracking-wide">
                       Learn More
@@ -64,7 +64,7 @@ export default function landingpagebanner() {
                   </button>
                 </div>
               </div>
-              <div className="flex items-center w-1/2 border-gray-400">
+              <div className="flex items-center w-[70%] sm:w-1/2 border-gray-400">
                 <img src="/images/illustration.svg" alt="" />
               </div>
             </div>
