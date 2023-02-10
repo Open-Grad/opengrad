@@ -53,7 +53,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
+                  <img src="/images/icons/smileimoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     If yes, we are here with all you need!{" "}
@@ -61,7 +61,7 @@ export default function Videosection() {
                 </li>
 
                 <li className="flex items-center">
-                  <img src="/images/icons/imoji.png" className="h-9 w-9" />
+                  <img src="/images/icons/smileimoji.png" className="h-9 w-9" />
                   <span className="ml-3 font-light font-body text-white">
                     {" "}
                     Get Free Support{" "}
