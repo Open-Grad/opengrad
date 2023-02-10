@@ -18,7 +18,7 @@ const Navbar1 = () => {
   };
 
   return (
-    <header className="bg-white">
+    <header className=" bg-gradient-to-b from-green-50 to-[#f3faf7]">
       <div className="px-0 sm:px-24 pt-3 mx-auto max-w-8xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-between lg:justify-end h-16 lg:h-20">
