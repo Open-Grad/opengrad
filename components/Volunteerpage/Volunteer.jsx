@@ -3,7 +3,7 @@ import Accordion from "../Accordion/Accordion";
 
 const Volunteer = () => {
   return (
-    <section class="py-24  flex items-center justify-center bg-white gap-4">
+    <section class="py-24 flex items-center justify-center bg-white gap-4">
       <div class="mx-auto px-24">
         <div class="text-center">
           <h1 class="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-tight text-green-600">
