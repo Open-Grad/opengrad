@@ -17,6 +17,8 @@ export default function mentors() {
       {/* carousel */}
 
       <div class="scrollbar-hide mt-14 flex w-full snap-x snap-mandatory scroll-px-10 gap-10 overflow-x-scroll scroll-smooth px-10  ">
+
+        
         <div class="md:2/3 relative aspect-[3/3] w-[90%] shrink-0 snap-start snap-always rounded-xl sm:w-[44%] md:w-[30%]">
           <div className="flex flex-col rounded-2xl overflow-hidden shadow-xl shadow-[#d8fee243] h-full">
             <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
