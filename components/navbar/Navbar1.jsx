@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Dropdown } from "flowbite-react";
 
-const Navbar = () => {
+const Navbar1 = () => {
   const [open, setOpen] = React.useState(false);
 
   const opening = () => {
@@ -18,8 +18,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className=" bg-white">
-      <div className="px-24 py-1 mx-auto max-w-8xl">
+    <header className=" bg-gradient-to-b from-green-50 to-[#f3faf7]">
+      <div className="px-0 sm:px-24 pt-3 mx-auto max-w-8xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-between lg:justify-end h-16 lg:h-20">
             <div className="lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
@@ -34,21 +34,39 @@ const Navbar = () => {
               </div>
             </div>
 
-            <button
-              type="button"
-              onClick={opening}
-              className="inline-flex p-2 ml-5 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
-            >
-              <svg
-                className="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+            {!open ? (
+              <button
+                type="button"
+                onClick={opening}
+                className="inline-flex p-2 ml-5 text-black transition-all duration-200 rounded-md lg:hidden"
               >
-                <path d="M4 6h16M4 12h16m-7 6h7" />
-              </svg>
-            </button>
+                <svg
+                  className="w-6 h-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={opening}
+                className="inline-flex p-2 text-black transition-all duration-200 rounded-md "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            )}
 
             <div className="hidden lg:flex lg:items-center lg:space-x-10">
               {/* <Link
@@ -158,7 +176,7 @@ const Navbar = () => {
                 <Link
                   href="/"
                   title=""
-                  className="text-base font-body border-current border-2 px-4 py-2 font-medium text-black rounded-md"
+                  className="text-base font-body bg-[#e6fef7] border-current border-2 px-4 py-2 font-medium text-black rounded-md"
                 >
                   Login
                 </Link>
@@ -176,48 +194,10 @@ const Navbar = () => {
       </div>
 
       {open && (
-        <nav className="py-4 bg-white lg:hidden">
+        <nav className="py-4 transition-all duration-800  mr-5 ml-16 bg-white rounded-xl lg:hidden">
           <div className="px-4 mx-auto sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between">
-              <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-                Menu
-              </p>
-              <button
-                type="button"
-                onClick={opening}
-                className="inline-flex p-2 text-black transition-all duration-200 rounded-md focus:bg-gray-100 hover:bg-gray-100"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-
             <div className="mt-6">
-              <hr className="my-4 border-gray-200" />
-
               <div className="flex gap-2 flex-col space-y-2">
-                <Link
-                  href="/"
-                  title=""
-                  className="text-base font-body font-medium text-black"
-                >
-                  Home
-                </Link>
-
-                <Link
-                  href="/"
-                  title=""
-                  className="text-base font-body font-medium text-black"
-                >
-                  Programs
-                </Link>
                 <Link
                   href="/"
                   title=""
@@ -232,13 +212,7 @@ const Navbar = () => {
                 >
                   Volunteer
                 </Link>
-                <Link
-                  href="/"
-                  title=""
-                  className="text-base font-body font-medium text-black"
-                >
-                  Collaboration
-                </Link>
+
                 <div class="relative inline-block text-left">
                   <div>
                     <button
@@ -322,4 +296,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar1;
