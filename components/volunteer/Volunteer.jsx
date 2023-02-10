@@ -11,7 +11,7 @@ export default function Volunteer() {
     <section class="overflow-hidden">
         <div class="flex flex-col lg:flex-row ">
             <div class="flex items-center justify-center w-full lg:order-2 lg:w-7/12">
-                <div class="h-full px-4 pt-7 pb-16 sm:px-6 lg:px-24 2xl:px-32 lg:pt-40 lg:pb-14">
+                <div class="h-full px-4 pt-8 pb-16 sm:px-6 lg:px-24 2xl:px-32 lg:pt-20 lg:pb-14">
                     <div class="flex flex-col p-5 sm:p-0 justify-between flex-1 h-full">
                         <div>
                             <h1 class="text-4xl font-bold text-black sm:text-5xl font-display xl:text-6xl">Volunteer with OpenGrad</h1>
