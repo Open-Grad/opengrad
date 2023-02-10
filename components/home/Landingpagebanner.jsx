@@ -50,7 +50,7 @@ export default function landingpagebanner() {
                   sense in these unprecedented times.
                 </p>
                 <div className="flex flex-row sm:flex-row gap-2 justify-center  items-center pt-6 sm:pt-12 space-x-6 md:justify-start">
-                  <button className="flex text-sm sm:text-xs justify-center items-center py-3 px-4 sm:py-3 sm:px-8 font-bold tracking-wide leading-7 text-white bg-[#005249]	 rounded-xl hover:shadow-xl">
+                  <button className="flex text-sm sm:text-2xs justify-center items-center py-3 px-4 sm:py-4 sm:px-8 font-bold tracking-wide leading-7 text-white bg-[#005249]	 rounded-xl hover:shadow-xl">
                    Join Now
                   </button>
                   <button className="flex items-center">
